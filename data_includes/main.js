@@ -1425,42 +1425,7 @@ newSelector()
 )
 .log( "ID" , getVar("ID") )
 ;
-PennController ("experiment",
-		defaultText
-	        .print(),
-		newImage ("frogshadowscenario1","frogshadowscenario1.png")
-               .print ()
-		,
-		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
-		.play()
-		,
 
-		newText ("<p> Baby Dragon: It is certain that some frogs are red. </p>")
-	       ,
-		newText ("<p> How will you reward the baby dragon? </p>")
-		,
-	       newImage("bigapple", "bigapple.png")
-        .settings.size(200,200)
-        // .print()
-    ,
-    newImage("smallapple", "smallapple.png")
-        .settings.size(200,200)
-        // .print()
-    ,
-    newCanvas(450,200)
-        .settings.add( 0 , 0 , getImage("bigapple") )
-        .settings.add( 250 , 0 , getImage("smallapple") )
-        .print()
-	       ,
-	       // newKey("FJ")
-newSelector()
-    .settings.add( getImage("bigapple") , getImage("smallapple") )
-    .settings.keys(          "F"    ,          "J"   )
-    .settings.log()
-    .wait()
-)
-.log( "ID" , getVar("ID") )
-;
 PennController("experiment" ,
 	    defaultText
 	        .print(),
@@ -1820,7 +1785,7 @@ PennController ("experiment",
 	        .print(),
 		newText ("<p>  Now let's look at the shadows, and see what the baby dragon says.</p>")
 		,
-		newImage ("frogshadowscenario3","frogshadowscenario3.png")
+		newImage ("frogshadowscenario4","frogshadowscenario4.png")
                .print ()
 		,
 		newAudio("frogsounds2sec", "frogsounds2sec.mp3")
@@ -1857,7 +1822,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("frogshadowscenario3","frogshadowscenario3.png")
+		newImage ("frogshadowscenario4","frogshadowscenario4.png")
                .print ()
 		,
 	
@@ -2518,7 +2483,7 @@ newSelector()
 PennController ("experiment",
 		defaultText
 	        .print(),
-		newImage ("cowshadowscenario1","cowshadowscenario1.png")
+		newImage ("cowshadowscenario3","cowshadowscenario3.png")
                .print ()
 		,
 	
@@ -2923,7 +2888,7 @@ PennController ("experiment",
 		newImage ("catshadowscenario1", "catshadowscenario1.png")
                .print ()
 		,
-		newText ("<p> Baby Dragon: It is possible that some cats are pink.</p>")
+		newText ("<p> Baby Dragon: It is possible that some cats are orange.</p>")
 		,
 		newText ("<p> How will you reward the baby dragon? </p>")
 		,
